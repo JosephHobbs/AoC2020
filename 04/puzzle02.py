@@ -29,8 +29,7 @@ if currentPassportRaw:
     passports.append(currentPassportRaw)
 
 #
-# Now all we need to do is count the number of passports containing all
-# all expected fields.
+#
 #
 
 hairColorMatcher = re.compile('#[0-9a-z]{6}$')
